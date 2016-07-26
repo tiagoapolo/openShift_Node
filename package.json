@@ -1,0 +1,45 @@
+{
+  "name": "boltApp",
+  "version": "1.0.0",
+  "description": "UNiO Application",
+  "keywords": [
+    "UNiO",
+    "Node.js",
+    "application",
+    "SaaS",
+    "HaaS",
+    "M2M"
+  ],
+  "author": {
+    "name": "Tiago Fonseca",
+    "email": "tiagoapolo@gmail.com",
+    "url": "https://www.facebook.com/tiagoapolo"
+  },
+  "homepage": "http://www.uniosmart.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "^4.8.8",
+    "mysql"  : "^2.9.0",
+    "request": "^2.63.0",
+    "body-parser": "^1.14.1",
+    "bcrypt-nodejs": "0.0.3",
+    "passport": "^0.2.0",
+    "passport-http": "^0.2.2",
+    "googleapis": "^4.0.0",
+    "moment": "^2.13.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
